@@ -86,4 +86,20 @@
         top: 167px;
     }
 
+    .header__content {
+        text-align: center;
+    }
+
+    .header__title {
+        font-size: 70px;
+    }
+
+    .header__desc {
+        font-size: 30px;
+    }
+
+    .header__banner-btn {
+        padding: 14px 68px;
+    }
+
 }

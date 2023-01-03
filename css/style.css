@@ -194,4 +194,14 @@ body {
     color: var(--white);
     background: var(--hover);
     border-radius: 30px;
+    transition: 500ms;
+}
+
+.header__banner-btn:hover {
+    background: var(--white);
+    border-radius: 30px;
+    font-family: var(--inter-sb);
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--hover);
 }
