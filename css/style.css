@@ -205,3 +205,40 @@ body {
     line-height: 22px;
     color: var(--hover);
 }
+
+.about-us .container {
+        text-align: center;
+}
+
+.about-us__title {
+    margin: 88px auto 50px;
+    font-family: var(--inter-sb);
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--common);
+}
+
+.about-us__content {
+    display: flex;
+}
+
+.about-us__img {
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.paragraphs {
+    text-align: left;
+    padding-top: 9px;
+}
+
+.about-us__desc {
+    margin-bottom: 20px;
+    font-family: var(--rubik-r);
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--black);
+}
+
+
+
