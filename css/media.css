@@ -54,6 +54,10 @@
         background: rgba(255, 255, 255, 0.395);
         transition: 600ms linear;
     }
+
+    .header__link {
+        position: static;
+    }
     
     .header__link::after {
         bottom: unset;
@@ -155,6 +159,10 @@
 
     .contacts__content-desc {
         margin-bottom: 30px;
+    }
+
+    .footer__content {
+        row-gap: 35px;
     }
 
 }

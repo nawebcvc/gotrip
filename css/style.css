@@ -52,6 +52,21 @@ body {
     color: var(--common);
 }
 
+.lists {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    max-width: 263px;
+    width: 100%;
+}
+
+.links {
+    font-family: var(--rubik-m);
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+}
+
 .header__nav {
     background: var(--common);
     padding: 33px 0;
@@ -89,20 +104,9 @@ body {
     
 }
 
-.header__list {
-    display: flex;
-    justify-content: center;
-    column-gap: 30px;
-    max-width: 263px;
-    width: 100%;
-}
-
 .header__link {
     padding: 5px 0 5px;
-    font-family: var(--rubik-m);
-    font-size: 16px;
-    line-height: 19px;
-    color: var(--white);
+    position: relative;
 }
 
 .header__link::after {
@@ -314,5 +318,33 @@ body {
     margin-bottom: 20px;
 }
 
+.footer__content {
+    display: flex;
+    align-items: center;
+    row-gap: 59px;
+    flex-direction: column;
+    background: var(--common);
+    padding: 40px 0 15px;
+}
+
+.footer__link {
+    transition: 500ms;
+}
+
+.footer__link:hover
+/* не по макету! а просто для красоты */ {
+    color: var(--hover);
+}
+
+.footer__block {
+    display: flex;
+    column-gap: 6px;
+}
+
+.footer__block .desc {
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white);
+}
 
 
