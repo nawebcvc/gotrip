@@ -38,6 +38,13 @@ body {
     padding: 0 15px;
 }
 
+.desc {
+    font-family: var(--rubik-r);
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--black);
+}
+
 .title {
     font-family: var(--inter-sb);
     font-size: 40px;
@@ -238,10 +245,6 @@ body {
 
 .about-us__desc {
     margin-bottom: 20px;
-    font-family: var(--rubik-r);
-    font-size: 18px;
-    line-height: 21px;
-    color: var(--black);
 }
 
 .catalog {
@@ -286,5 +289,30 @@ body {
 .catalog__card-desc:hover {
     color: var(--hover);
 }
+
+.contacts {
+    margin-top: 100px;
+}
+
+.contacts__title {
+    margin-bottom: 50px;
+}
+
+.contacts__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__content-desc {
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 555px;
+    width: 100%;
+}
+
+.contacts__contact .contacts__content-desc {
+    margin-bottom: 20px;
+}
+
 
 

@@ -20,7 +20,8 @@
     }
     
     .header__nav-logo {
-        height: 30px;
+        height: 45px;
+        width: 149px;
     }
 
     .header__menu {
@@ -138,6 +139,22 @@
 
     .catalog__card-block {
         height: 297px;
+    }
+
+    .contacts {
+        text-align: center;
+    }
+
+    .contacts__title {
+        margin-bottom: 15px;
+    }
+
+    .contacts__content {
+        flex-direction: column;
+    }
+
+    .contacts__content-desc {
+        margin-bottom: 30px;
     }
 
 }
