@@ -6,6 +6,7 @@
     --hover: #B4436C;
     --common: #3E8989;
     --placeholder: #898989;
+    --card-bg: #EFEFEF;
     --inter-sb: 'Inter_SemiBold';
     --rubik-r: 'Rubik_Regular';
     --rubik-m: 'Rubik_Medium';
@@ -35,6 +36,13 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.title {
+    font-family: var(--inter-sb);
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--common);
 }
 
 .header__nav {
@@ -210,12 +218,8 @@ body {
         text-align: center;
 }
 
-.about-us__title {
+.about-us__title{
     margin: 88px auto 50px;
-    font-family: var(--inter-sb);
-    font-size: 40px;
-    line-height: 48px;
-    color: var(--common);
 }
 
 .about-us__content {
@@ -240,5 +244,47 @@ body {
     color: var(--black);
 }
 
+.catalog {
+    margin-top: 80px;
+}
+
+.catalog__title { 
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+.catalog__cards {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.catalog__cards .card {
+    max-width: 263px;
+    width: 100%;
+}
+
+.catalog__card-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 300px;
+    height: 100%;
+    background: var(--card-bg);
+}
+
+.catalog__card-desc {
+    text-align: center;
+    margin-top: 30px;
+    font-family: var(--inter-sb);
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--black);
+    transition: 500ms;
+}
+
+.catalog__card-desc:hover {
+    color: var(--hover);
+}
 
 
