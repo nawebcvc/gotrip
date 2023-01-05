@@ -101,7 +101,7 @@ body {
     background: var(--white);
     border-radius: 10px;
     transition: 600ms linear;
-    
+
 }
 
 .header__link {
@@ -127,11 +127,9 @@ body {
 
 .header__form {
     display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 290px;
-    width: 100%; 
-    height: 35px;   
+    width: 100%;
+    height: 35px;
 }
 
 .header__input {
@@ -141,7 +139,6 @@ body {
     padding: 8px 0 8px 20px;
     max-width: 216px;
     width: 100%;
-    height: 100%;
     outline: none;
 }
 
@@ -149,12 +146,11 @@ body {
     font-family: var(--rubik-r);
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;  
+    line-height: 19px;
     color: var(--placeholder);
 }
 
 .header__form-btn {
-    height: 100%;
     padding: 9px 14px;
     border: none;
     background: #295E5E;
@@ -167,7 +163,6 @@ body {
 
 .header__img {
     position: absolute;
-    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -226,10 +221,10 @@ body {
 }
 
 .about-us .container {
-        text-align: center;
+    text-align: center;
 }
 
-.about-us__title{
+.about-us__title {
     margin: 88px auto 50px;
 }
 
@@ -255,7 +250,7 @@ body {
     margin-top: 80px;
 }
 
-.catalog__title { 
+.catalog__title {
     text-align: center;
     margin-bottom: 53px;
 }
@@ -295,7 +290,8 @@ body {
 }
 
 .contacts {
-    margin-top: 100px;
+    margin: 100px auto 104px;
+
 }
 
 .contacts__title {
@@ -314,7 +310,7 @@ body {
     width: 100%;
 }
 
-.contacts__contact .contacts__content-desc {
+.contacts__content-desc:first-child {
     margin-bottom: 20px;
 }
 
@@ -332,7 +328,9 @@ body {
 }
 
 .footer__link:hover
-/* не по макету! а просто для красоты */ {
+
+/* не по макету! а просто для красоты */
+    {
     color: var(--hover);
 }
 
@@ -346,5 +344,3 @@ body {
     line-height: 17px;
     color: var(--white);
 }
-
-
